@@ -1,0 +1,7 @@
+#!/bin/bash -eu
+
+GITHUB_API_URL="https://api.${GITHUB_HOST}/user/repos"
+REPOSITORY_NAME=${1}
+
+ghq get $(curl -H "Authorization: token ${GITHUB_TOKEN}" ${GITHUB_API_URL} -d '{"name": "'${REPOSITORY_NAME}'"}' -s | jq -r '.ssh_url')
+echo $(ghq root)/${GITHUB_HOST}/${GITHUB_USER}/${REPOSITORY_NAME}
