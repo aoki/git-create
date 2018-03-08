@@ -6,6 +6,14 @@ Create repository on GitHub via CLI and clone repository using `ghq`.
 git create foo
 ```
 
+## Install
+
+```bash
+brew tap ringohub/git-create
+brew update && brew doctor
+brew install git-create
+```
+
 ## Environment Variables
 
 | Name             | Require | Example                | Note                                                |
