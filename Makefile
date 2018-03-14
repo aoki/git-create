@@ -1,6 +1,6 @@
 NAME := git-create
 FILENAME := $(NAME)
-VERSION := 0.2.0
+VERSION := 0.3.0
 DESCRIPTION := "Create Repository and clone via ghq"
 
 
