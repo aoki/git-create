@@ -36,6 +36,3 @@ brew install git-create
 1. Bump up to next version in `Makefile`.
 2. Generate homebrew formula via `make formula`.
 3. Release binary to GitHub via `make release`.
-
-
-```
