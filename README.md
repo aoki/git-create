@@ -2,8 +2,16 @@
 
 Create repository on GitHub via CLI and clone repository using `ghq`.
 
+Create new repository on `${GITHUB_HOST}/${GITHUB_USER}/foo`.
+
 ```sh
 git create foo
+```
+
+If you want to specify owner or organization, in which case type below.
+
+```sh
+git create ringohub/foo
 ```
 
 ## Install
