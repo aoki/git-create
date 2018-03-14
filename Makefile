@@ -15,7 +15,7 @@ release:
 	git tag -a v$(VERSION) -m "Release v$(VERSION)"
 	git push origin master
 	git push origin --tags
-	hub release create -a $(FILENAME) $(VERSION)
+	hub release create -a $(FILENAME) v$(VERSION)
 .PHONY: release
 
 hash:
