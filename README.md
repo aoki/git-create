@@ -30,3 +30,12 @@ brew install git-create
 | `GITHUB_USER`    | yes     | ringohub               |                                                                                        |
 | `GITHUB_TOKEN`   | yes     | xxxxxxxxxx             | [Generate Here](https://github.com/settings/tokens)                                    |
 | `GITHUB_API_URL` | yes     | https://api.github.com | If your using GitHub Enterprise then API URL is like a `http://your.ghe.domein/api/v3` |
+
+## For Development
+
+1. Bump up to next version in `Makefile`.
+2. Generate homebrew formula via `make formula`.
+3. Release binary to GitHub via `make release`.
+
+
+```
