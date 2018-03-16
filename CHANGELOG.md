@@ -1,3 +1,9 @@
+## v0.4.0
+
+### FEATURES
+- :sparkle: Add `auto_init` option at create repository
+
+
 ## v0.3.0
 
 ### BACKWARD INCOMPATIBILITIES

@@ -34,5 +34,6 @@ brew install git-create
 ## For Development
 
 1. Bump up to next version in `Makefile`.
-2. Generate homebrew formula via `make formula`.
-3. Release binary to GitHub via `make release`.
+2. Update CHANGELOG.
+3. Generate homebrew formula via `make formula`.
+4. Release binary to GitHub via `make release`.
