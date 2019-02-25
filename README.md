@@ -29,7 +29,7 @@ brew install git-create
 | `GITHUB_HOST`    | yes     | github.com             | If your using GitHub Enterprise then API URL is like a `your.ghe.domein`               |
 | `GITHUB_USER`    | yes     | ringohub               |                                                                                        |
 | `GITHUB_TOKEN`   | yes     | xxxxxxxxxx             | [Generate Here](https://github.com/settings/tokens)                                    |
-| `GITHUB_API_URL` | yes     | https://api.github.com | If your using GitHub Enterprise then API URL is like a `http://your.ghe.domein/api/v3` |
+| `GITHUB_API_URL` | yes     | https://api.github.com | If your using GitHub Enterprise then API URL is like a `http://your.ghe.domain/api/v3` |
 
 ## For Development
 
